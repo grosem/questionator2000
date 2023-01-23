@@ -1,2 +1,2 @@
 # questionator2000
-Collect questions from viewers and let them vote on them. #learningReact
+Quick'n'dirty React App that I want to use for one of my presentations.
