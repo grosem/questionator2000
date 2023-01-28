@@ -90,7 +90,11 @@ export default function QuestionList(props: any) {
                     >
                       +{question.votes}
                     </Chip>
-                    <span>{question.question}</span>
+                    <span
+                      style={{ userSelect: "none", WebkitUserSelect: "none" }}
+                    >
+                      {question.question}
+                    </span>
                   </Flex>
                 </Card.Section>
               </Card>
